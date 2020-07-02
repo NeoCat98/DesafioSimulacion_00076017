@@ -360,33 +360,25 @@ public class PasosMEF extends javax.swing.JFrame {
     private void jButton10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton10ActionPerformed
         System.out.println(button_number);
         //Atras boton 10
-        if(button_number == 16){
-            button_number = button_number - suma;
-            jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/MEF/foto_paso8_3_1.png")));
-            jButton9.setEnabled(true);
-            jButton10.setEnabled(true);
-        }
-        if(button_number == 15){
-            button_number = button_number - suma;
-            jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/MEF/foto_paso8_2.png")));
-            jButton9.setEnabled(true);
-            jButton10.setEnabled(true);
-        }
-        if(button_number == 14){
-            button_number = button_number - suma;
-            jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/MEF/foto_paso8_1.png")));
+        if(button_number == 5){
+            jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/MEF/foto_paso5_1.png")));
             jButton9.setEnabled(true);
             jButton10.setEnabled(false);
         }
-        if(button_number == 12){
-            button_number = button_number - suma;
-            jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/MEF/foto_paso7_5.png")));
+        if(button_number == 6){
+            jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/MEF/foto_paso6_1.png")));
             jButton9.setEnabled(true);
-            jButton10.setEnabled(true);
+            jButton10.setEnabled(false);
         }
-        if(button_number == 11){
+        if(button_number == 8){
             button_number = button_number - suma;
-            jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/MEF/foto_paso7_4.png")));
+            jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/MEF/foto_paso7_1.png")));
+            jButton9.setEnabled(true);
+            jButton10.setEnabled(false);
+        }
+        if(button_number == 9){
+            button_number = button_number - suma;
+            jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/MEF/foto_paso7_2.png")));
             jButton9.setEnabled(true);
             jButton10.setEnabled(true);
         }
@@ -396,27 +388,35 @@ public class PasosMEF extends javax.swing.JFrame {
             jButton9.setEnabled(true);
             jButton10.setEnabled(true);
         }
-        if(button_number == 9){
+        if(button_number == 11){
             button_number = button_number - suma;
-            jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/MEF/foto_paso7_2.png")));
+            jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/MEF/foto_paso7_4.png")));
             jButton9.setEnabled(true);
             jButton10.setEnabled(true);
         }
-        if(button_number == 8){
+        if(button_number == 12){
             button_number = button_number - suma;
-            jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/MEF/foto_paso7_1.png")));
+            jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/MEF/foto_paso7_5.png")));
+            jButton9.setEnabled(true);
+            jButton10.setEnabled(true);
+        }
+        if(button_number == 14){
+            button_number = button_number - suma;
+            jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/MEF/foto_paso8_1.png")));
             jButton9.setEnabled(true);
             jButton10.setEnabled(false);
         }
-        if(button_number == 6){
-            jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/MEF/foto_paso6_1.png")));
+        if(button_number == 15){
+            button_number = button_number - suma;
+            jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/MEF/foto_paso8_2.png")));
             jButton9.setEnabled(true);
-            jButton10.setEnabled(false);
+            jButton10.setEnabled(true);
         }
-        if(button_number == 5){
-            jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/MEF/foto_paso5_1.png")));
+        if(button_number == 16){
+            button_number = button_number - suma;
+            jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/MEF/foto_paso8_3_1.png")));
             jButton9.setEnabled(true);
-            jButton10.setEnabled(false);
+            jButton10.setEnabled(true);
         }
     }//GEN-LAST:event_jButton10ActionPerformed
 
